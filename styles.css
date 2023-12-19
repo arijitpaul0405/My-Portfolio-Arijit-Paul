@@ -1,0 +1,165 @@
+#header a {
+    color: #3D30A2;
+}
+
+#home a img {
+    height: 2.8rem;
+    width: 2.8rem;
+}
+
+#home img {
+    border-radius: 50%;
+}
+
+#home p {
+    font-size: 2rem;
+    color: #012970;
+}
+
+#home h1 {
+    font-size: calc(1rem + 4vw);
+    font-weight: bold;
+    line-height: 1;
+    color: #012970;
+    font-family: 'Poppins', sans-serif;
+}
+
+#home h4 {
+    font-size: calc(1.375rem + 1.5vw);
+    font-weight: 900;
+    line-height: 1.2;
+    color: #940808;
+    font-family: 'Poppins', sans-serif;
+}
+
+.skill-icon-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-icon {
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+
+#projects img {
+    height: 200px;
+    width: 100%;
+}
+
+#education img, #experience img {
+    height: 12em;
+    width: 12em;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 60px;
+}
+
+#education h3, #experience h3 {
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #940808;
+    font-family: 'Poppins', sans-serif;
+}
+
+#education h4, #experience h4 {
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+#education p, #experience p {
+    font-size: 1rem;
+    font-weight: 900;
+    color: green;
+}
+
+#contact div > img {
+    height: 30rem;
+    width: 30rem;
+    margin-right: 60px;
+}
+
+#contact .contact-div {
+    display: flex;
+}
+
+#contact .contact-div > img {
+    height: 30rem;
+    width: 30rem;
+}
+
+@media (max-width: 991px) {
+
+    #home p {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    
+    #home h1 {
+        margin-left: 0px;
+        font-size: calc(2.5rem + 3vw);
+    }
+
+    #home h4 {
+        margin-left: 0px;
+        font-size: calc(1.375rem + 1.5vw);
+    }
+
+    #education img, #experience img {
+        margin-left: 0px;
+        margin-right: 20px;
+        height: 9rem;
+        width: 9rem;
+    }
+
+    #education h3, #experience h3 {
+        font-size: 1.3rem;
+    }
+
+    #education h4, #experience h4 {
+        font-size: 1rem;
+    }
+
+    #education p, #experience p {
+        font-size: 80%;
+    }
+
+    #contact .contact-div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contact .contact-div > img {
+        height: 25rem;
+        width: 25rem;
+    }
+    
+}
+
+@media (max-width: 550px) {
+
+    #education img, #experience img {
+        margin-left: 0px;
+        margin-right: 15px;
+        height: 8rem;
+        width: 8rem;
+    }
+
+    #education h3, #experience h3 {
+        font-size: 1.05rem;
+        font-weight: 900;
+    }
+
+    #education h4, #experience h4 {
+        font-size: 0.7rem;
+    }
+
+    #education p, #experience p {
+        font-size: 60%;
+    }
+
+}
